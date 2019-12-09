@@ -50,4 +50,6 @@ class User < ApplicationRecord
     self.favo_microposts.include?(micropost)
   end
   
+  
+  
 end
